@@ -1,74 +1,324 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+<head>
+    <title>Star Farm Ventures - Bringing Israeli startups to the US market</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="description" content="Start Farm Ventures">
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="assets/js/jquery-ui-1.8.22.custom.min.js"></script>
+    <script src="assets/js/jquery.imagesloaded.min.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/modernizr-2.5.3.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script> 
+    <script src="assets/js/bigvideo.js"></script> 
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">    
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Starfarmventures.github.io : Cool" />
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->      
+  <style type="text/css">
+	  .navbar-inner
+	  {
+	  	padding: 0px 0 8px;
+	  }
+	  .navbar .brand
+	  {
+	  	padding: 0;
+	  	padding-top: 5px;
+	  }
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  </style>
+</head>
+<body>
 
-    <title>Starfarmventures.github.io</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/starfarmventures">View on GitHub</a>
-
-          <h1 id="project_title">Starfarmventures.github.io</h1>
-          <h2 id="project_tagline">Cool</h2>
-
-        </header>
+  <!-- Navbar -->
+	<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+    		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+          	</a>
+          	<a class="brand scroller" data-section="html" href="/"><img src="logo-6.png"></img></a>
+		  	<div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <li><a href="index.html#" class="scroller" data-section="#about">About Us</a></li>
+                    <li><a href="index.html#" class="scroller" data-section="#companies">Portfolio</a></li>
+                    <!--li><a href="index.html#" class="scroller" data-section="#thespace">The Space</a></li-->
+                    <li><a href="index.html#" class="scroller" data-section="#team">The Team</a></li>
+                    <li><a href="index.html#" class="scroller" data-section="#contact">Contact us</a></li>
+                </ul>
+	        </div>
+        </div>
+      </div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+    <!-- end Navbar -->
     
+    
+    <!-- #intro -->
+	<div class="main-container">
+		<div class="container-fluid" id="intro">	
+		<div class="container">	
+			<div class="row span6 center" style="margin-top: 160px;">
+				<a href="index.html#" data-section="#about" class="scroller btn btn-xlarge btn-primary">Learn More</a>
+			</div>	
+		</div>
+	</div>
+    <!-- ends Intro -->
+    
+     <!-- #about -->
+	<div class="container-fluid" id="about">
+        <div class="container dark">
+			<h1><strong>What we offer</strong></h1>
+            <ul class="thumbnails">
+              <li class="span4" style="margin-top: 0px;">
+                  <div class="thumbnail">
+                      <img alt="" src="assets/img/office_space.png"/>
+                  </div>
+              </li>
+              <li class="span4" style="margin-top: 0px;">
+                    <div class="thumbnail">
+                        <img alt="" src="assets/img/funding.png"/>
+                    </div>
+              </li>
+              <li class="span4" style="margin-top: 0px;">
+                    <div class="thumbnail">
+                        <img alt="" src="assets/img/business_development.png"/>
+                    </div>
+              </li>
+            </ul>
+            <ul class="thumbnails">
+                <li class="span4" style="margin-top: 0px;">
+                    <div class="thumbnail">
+                        <img alt="" src="assets/img/marketing.png"/>
+                    </div>
+                </li>
+                <li class="span4" style="margin-top: 0px;">
+                    <div class="thumbnail">
+                        <img alt="" src="assets/img/expensive_networking.png"/>
+                    </div>
+                </li>
+                <li class="span4" style="margin-top: 0px;">
+                    <div class="thumbnail">
+                        <img alt="" src="assets/img/mentorship.png"/>
+                    </div>
+                </li>
 
-  </body>
+            </ul>
+        </div>
+    </div>
+     <!-- ends About -->
+     <!-- #companies -->
+	<div class="container-fluid" id="companies">
+			<div class="container dark">
+				<h1><strong>Meet The Companies</strong></h1>
+			<ul class="thumbnails">
+                <li class="span4">
+                    <div class="thumbnail">
+                        <a href="http://www.bizzabo.com"><img alt="" src="assets/img/bizzabo_logo.png" width="200px"></a>
+                    </div>
+                </li>
+
+			  <li class="span4">
+			    <div class="thumbnail">
+			      <a href="http://www.equala.fm"><img alt="" src="assets/img/equala.png"></a>
+			    </div>
+			  </li>
+
+                <li class="span4">
+                    <div class="thumbnail">
+                        <a href="http://appmyday.co.il/en"><img alt="" src="assets/img/appmyday_logo.png"></a>
+                    </div>
+                </li>
+
+			</ul>
+
+			<ul class="thumbnails">
+
+			  <li class="span4">
+			    <div class="thumbnail">
+			      <a href="http://www.swayy.co"><img alt="" src="assets/img/swayy_logo.png" width="200px"></a>
+			    </div>
+			  </li>
+			
+			  <li class="span4">
+			    <div class="thumbnail">
+			      <a href="www.licensario.com"><img alt="" src="assets/img/licensario_logo.png" width="200px"></a>
+			    </div>
+			  </li>
+                <li class="span4">
+                    <div class="thumbnail">
+                        <a href="http://www.code-walker.com/"><img alt="" src="assets/img/codewalker_logo.png" width="200px"></a>
+                    </div>
+                </li>
+
+			 </ul>
+			 <ul class="thumbnails">
+			  <li class="span4">
+			    <div class="thumbnail">
+			      <a href="http://www.wisepricer.com"><img alt="" src="assets/img/wisepricer_logo.png" width="200px"></a>
+			    </div>
+			  </li>
+  			  <li class="span4">
+			    <div class="thumbnail">
+			      <a href="http://www.ringya.com"><img alt="" src="assets/img/ringya_logo.png" width="200px"></a>
+			    </div>
+			  </li>
+			  <li class="span4">
+			    <div class="thumbnail">
+			      <a href="http://www.roomixer.com"><img alt="" src="assets/img/roomixer_logo.png" width="200px"></a>
+			    </div>
+			  </li>
+		  	</ul>
+		  	<ul class="thumbnails">
+			  <li class="span4">
+			    <div class="thumbnail">
+			      <a href="http://www.askem.com"><img alt="" src="assets/img/askemlogo.png" width="200px"></a>
+			    </div>
+			  </li>
+
+			  <li class="span4">
+			    <div class="thumbnail">
+			      <a href="http://justad.mobi/"><img alt="" src="assets/img/justad_logo.png" width="200px"></a>
+			    </div>
+			  </li>
+
+			</ul>			
+		</div>
+	</div>
+     <!-- ends companies -->
+        <div class="container-fluid" id="thespace">
+            <div class="container dark">
+                <h1><strong>SFV HQ</strong></h1>
+                <h2>Located in the heart of Silicon Alley!</h2>
+            </div>
+        </div>
+
+      <!-- #team -->    
+<div class="container-fluid" id="team">
+	<div class="container dark">
+		<h1><strong>Meet the team</strong></h1>
+			<ul class="thumbnails">
+			  <li class="span4">
+			    <div class="thumbnail">
+			      <img alt="" src="assets/img/joey.png"/>
+			      <h3>Mr. Joey Low</h3>
+                  <p>Founder</p>
+			      <div class="social">
+                      <a target="_blank" href="http://www.linkedin.com/profile/view?id=34728184&locale=en_US&trk=tyah"><img alt="" src="assets/img/linkedin.png"/></a>
+                      <a target="_blank" href="mailto:joey@starfarmventures.com"><img alt="" src="assets/img/email.png"/></a>
+			      </div>
+			    </div>
+			  </li>
+			
+			  <li class="span4">
+			    <div class="thumbnail">
+                  <img alt="" src="assets/img/tanya.png"/>
+                    <h3>Tanya Low</h3>
+                    <p>Co-Founder</p>
+			      <div class="social">
+                      <a target="_blank" href="http://www.linkedin.com/profile/view?id=186125218&locale=en_US&trk=tyah"><img alt="" src="assets/img/linkedin.png"/></a>
+                      <a target="_blank" href="https://twitter.com/TheTLowww"><img alt="" src="assets/img/twitter.png"/></a>
+                      <a target="_blank" href="mailto:tanya@starfarmventures.com"><img alt="" src="assets/img/email.png"/></a>
+			      </div>
+			    </div>
+			  </li>
+			  
+			  <li class="span4">
+			    <div class="thumbnail">
+                    <img alt="" src="assets/img/rebecca.png"/>
+                    <h3>Rebecca Goldberg</h3>
+			        <p>Marketing</p>
+			      <div class="social">
+                      <a target="_blank" href="http://www.linkedin.com/profile/view?id=182113776&locale=en_US&trk=tyah"><img alt="" src="assets/img/linkedin.png"/></a>
+                      <a target="_blank" href="mailto:rebecca@starfarmventures.com"><img alt="" src="assets/img/email.png"/></a>
+			      </div>
+			    </div>
+			  </li>
+			 </ul>
+		</div>
+	</div>
+      <!-- End Team -->  
+       	
+	
+      <!-- #contact -->   	
+	<div class="container-fluid" id="contact">
+		<div class="row-fluid dark span12" style="margin-top:30px;text-align:center;">
+			<h1><strong>So, what are you waiting for?</strong></h1>
+
+            <div class="span9 offset1 whitebg">
+                <div class="span3" style="text-align:left;">
+                    <h2>Get in touch</h2>
+
+                    <address>
+                        <strong>Star Farm Ventures</strong><br>
+                        19W 21th Street, Suite 402<br>
+                        New York, NY 10010<br>
+                        <abbr title="Phone">Phone:</abbr> (646) 670-0025
+                    </address>
+
+                    <address>
+                        <strong>Tanya Low</strong><br>
+                        <a href="mailto:#">tanya@starfarmventures.com</a>
+                    </address>
+                </div>
+                <div class="span5 pull-right">
+                    <a class="twitter-timeline" href="https://twitter.com/StarFarmVenture" data-widget-id="323038649002369025">Tweets by @StarFarmVenture</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+            </div>
+        </div>
+    </div>   <!-- End Contact -->
+</div>
+<script>
+$(function () {
+    $(window).scroll(function(){
+    // global scroll to top button
+        if ($(this).scrollTop() > 300) {
+            $('.scrolltop').fadeIn();
+        } else {
+            $('.scrolltop').fadeOut();
+        }        
+    });
+    
+    // scroll nav
+    $('.scroller').click(function(){
+    	var section = $($(this).data("section"));
+    	var top = section.offset().top-75;
+        $("html, body").animate({ scrollTop: top }, 700);
+        return false;
+    });
+
+	    	    
+    // For the purpose of the demo this allows you to toggle the background between video and img
+    $('.toggle_video').click(function(){
+	    
+	   $('#big-video-wrap').fadeToggle();
+	   return false; 
+	    
+    });
+    
+    /*
+	// BigVideo Setup
+    var BV = new $.BigVideo({useFlashForFirefox:false});
+	BV.init();
+    if (Modernizr.touch) {
+    	// fallback image for mobile devices
+        BV.show('assets/img/bg2.jpg');
+    } else {
+        BV.show('assets/video/frontier.mp4',
+        {ambient:true, doLoop:true, altSource:'assets/video/frontier.ogv'});
+    } 
+    */  
+    
+            
+});
+</script>
+</body>
 </html>

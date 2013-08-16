@@ -6,6 +6,10 @@ body {
     font-family: 'Pathway Gothic One', sans-serif;
 }
 
+.span12,.container {
+    width: 1280px;
+    min-width: 1280px;
+}
 a, a:visited{color:#ffffff;
 	
 	-webkit-transition:all .1s linear;

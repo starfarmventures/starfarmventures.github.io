@@ -60,6 +60,10 @@ h1 {
 	padding:0px;
 }
 
+#header
+{
+    font-family: 'Pathway Gothic One';
+}
 #header .span2:first-child
 {
     text-align: left;
@@ -73,7 +77,7 @@ h1 {
 #header .span2
 {
     margin-top: 10px;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     text-align: center;
 }
@@ -193,7 +197,8 @@ h1 {
 
 #slider li div:first-child
 {
-    font-family: 'Unlock';
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
 }
 .container li div.frame.pull-left
 {
@@ -207,9 +212,10 @@ h1 {
 }
 .container li div.description
 {
-    line-height: 22px;
-    font-size: 20px;
+    line-height: 26px;
+    font-size: 24px;
     font-weight: normal;
+    font-family: 'Open Sans Condensed', sans-serif;
     padding: 20px;
     padding-left: 60px;
     padding-right: 60px;
@@ -468,8 +474,10 @@ h1 {
 .url
 {
     padding: 10px;
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 22px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
     font-style: italic;
 }
 
@@ -499,6 +507,8 @@ h1 {
 {
     margin-top: 20px;
     font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
     line-height: 32px;
     margin-right: 60px;
     padding: 10px;

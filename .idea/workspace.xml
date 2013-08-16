@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f44360ec-a4f3-4cff-b082-0a6882c279e4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.html" afterPath="$PROJECT_DIR$/portfolio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team.html" afterPath="$PROJECT_DIR$/team.html" />
     </list>
     <ignored path="starfarmventures.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -192,7 +188,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="23" selection-start="2227" selection-end="2227" vertical-scroll-proportion="0.6728972">
+            <state line="530" column="19" selection-start="8222" selection-end="8222" vertical-scroll-proportion="0.4034268">
               <folding />
             </state>
           </provider>
@@ -551,7 +547,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="23" selection-start="2227" selection-end="2227" vertical-scroll-proportion="0.6728972">
+        <state line="530" column="19" selection-start="8222" selection-end="8222" vertical-scroll-proportion="0.4034268">
           <folding />
         </state>
       </provider>

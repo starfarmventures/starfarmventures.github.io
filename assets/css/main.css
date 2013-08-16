@@ -672,4 +672,17 @@ h1 {
 
 .first_name
 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.last_name
+{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.job_title
+{
+    font-size: 20px;
+    font-weight: 100;
 }

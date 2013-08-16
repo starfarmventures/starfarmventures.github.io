@@ -73,7 +73,7 @@ h1 {
 #header .span2
 {
     margin-top: 10px;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
 }
@@ -83,9 +83,10 @@ h1 {
     color: #000000;
 }
 
-#header a.span4 {
+#header a.span2.logo {
     background:url('../../logo.png') no-repeat center center;
     height:80px;
+    margin-top: -20px;
 }
 
 /* Section Styles  */

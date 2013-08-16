@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f44360ec-a4f3-4cff-b082-0a6882c279e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team.html" afterPath="$PROJECT_DIR$/team.html" />
     </list>
     <ignored path="starfarmventures.github.io.iws" />
@@ -43,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="team.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="team.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="0" selection-start="3483" selection-end="3483" vertical-scroll-proportion="-8.125">
+            <state line="115" column="56" selection-start="6836" selection-end="6836" vertical-scroll-proportion="0.66561013">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -64,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="686" column="17" selection-start="10792" selection-end="10792" vertical-scroll-proportion="0.9326347">
+            <state line="686" column="17" selection-start="10792" selection-end="10792" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,8 +88,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/portfolio.html" />
-        <option value="$PROJECT_DIR$/team.html" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/team.html" />
       </list>
     </option>
   </component>
@@ -333,20 +332,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="686" column="17" selection-start="10792" selection-end="10792" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="3483" selection-end="3483" vertical-scroll-proportion="-8.125">
+        <state line="115" column="56" selection-start="6836" selection-end="6836" vertical-scroll-proportion="0.66561013">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="686" column="17" selection-start="10792" selection-end="10792" vertical-scroll-proportion="0.9326347">
-          <folding />
         </state>
       </provider>
     </entry>

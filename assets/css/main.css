@@ -126,6 +126,11 @@ h1 {
     line-height: 23px;
 }
 
+.footer .contact-info i
+{
+    margin-top: 3px;
+}
+
 .footer a {
     color: #009AD0;
     text-decoration: none;
@@ -144,12 +149,14 @@ h1 {
 {
     background: url(../img/right-arrow.png) no-repeat;
     width: 130px;
+    margin-top: -350px;
 }
 
 .container .anythingSlider-default .arrow.back a, .container .anythingSlider-default .arrow.back a:hover
 {
     background: url(../img/left-arrow.png) no-repeat;
     width: 150px;
+    margin-top: -350px;
 }
 
 .container .anythingSlider-default {

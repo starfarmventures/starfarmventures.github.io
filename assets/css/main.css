@@ -492,7 +492,7 @@ h1 {
     background: #FFFFFF;
 }
 
-.whitebg a, a:visited
+.whitebg a, .whitebg a:visited
 {
     color: #000000;
 }

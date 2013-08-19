@@ -197,8 +197,8 @@ h1 {
 
 #slider li div:first-child
 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 700;
+    font-family: 'Actor', sans-serif;
+    font-weight: 400;
 }
 .container li div.frame.pull-left
 {
@@ -469,6 +469,8 @@ h1 {
     margin-right: 60px;
     margin-top: 20px;
     width: 250px;
+    /*font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;*/
 }
 
 .url

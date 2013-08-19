@@ -43,7 +43,6 @@
     <!-- ends Intro -->
     <!-- #intro -->
     <!-- ends Intro -->
-</div>
 <div class="footer">
     <div class="container" id="footer">
         <div class="row">
@@ -54,7 +53,7 @@
                             GET IN TOUCH
                         </div>
                         <div class="row contact-info">
-                            <i class="icon-envelope pull-left"></i> <a href="mailto:info@starfarmventures.com">info@starfarmventures.com</a><br/>
+                            <i class="icon-envelope pull-left"></i> <a target="_blank" href="mailto:info@starfarmventures.com">info@starfarmventures.com</a><br/>
                             <i class="icon-phone pull-left"></i> +1.646.670.0025</a>
                         </div>
                     </div>
@@ -94,49 +93,5 @@
         </div>
     </div>
 </div>
-<script>
-$(function () {
-    $(window).scroll(function(){
-    // global scroll to top button
-        if ($(this).scrollTop() > 300) {
-            $('.scrolltop').fadeIn();
-        } else {
-            $('.scrolltop').fadeOut();
-        }        
-    });
-    
-    // scroll nav
-    $('.scroller').click(function(){
-    	var section = $($(this).data("section"));
-    	var top = section.offset().top-75;
-        $("html, body").animate({ scrollTop: top }, 700);
-        return false;
-    });
-
-	    	    
-    // For the purpose of the demo this allows you to toggle the background between video and img
-    $('.toggle_video').click(function(){
-	    
-	   $('#big-video-wrap').fadeToggle();
-	   return false; 
-	    
-    });
-    
-    /*
-	// BigVideo Setup
-    var BV = new $.BigVideo({useFlashForFirefox:false});
-	BV.init();
-    if (Modernizr.touch) {
-    	// fallback image for mobile devices
-        BV.show('assets/img/bg2.jpg');
-    } else {
-        BV.show('assets/video/frontier.mp4',
-        {ambient:true, doLoop:true, altSource:'assets/video/frontier.ogv'});
-    } 
-    */  
-    
-            
-});
-</script>
 </body>
 </html>

@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f44360ec-a4f3-4cff-b082-0a6882c279e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/7elements.png" afterPath="$PROJECT_DIR$/assets/img/7elements.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/bizzabo.png" afterPath="$PROJECT_DIR$/assets/img/bizzabo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/doalbums.png" afterPath="$PROJECT_DIR$/assets/img/doalbums.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/equala.png" afterPath="$PROJECT_DIR$/assets/img/equala.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/morpheus.png" afterPath="$PROJECT_DIR$/assets/img/morpheus.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/swayy.png" afterPath="$PROJECT_DIR$/assets/img/swayy.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.html" afterPath="$PROJECT_DIR$/portfolio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team.html" afterPath="$PROJECT_DIR$/team.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="starfarmventures.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,10 +23,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="249" selection-start="2649" selection-end="2649" vertical-scroll-proportion="-16.875">
+            <state line="27" column="31" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.5467512">
               <folding />
             </state>
           </provider>
@@ -49,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="portfolio.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="760" column="14" selection-start="43286" selection-end="43286" vertical-scroll-proportion="0.7955707">
+            <state line="32" column="0" selection-start="2329" selection-end="2900" vertical-scroll-proportion="-1.9852941">
               <folding>
                 <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -92,7 +84,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="559" column="14" selection-start="8809" selection-end="8809" vertical-scroll-proportion="-13.730769">
+            <state line="55" column="13" selection-start="836" selection-end="836" vertical-scroll-proportion="-11.115385">
               <folding />
             </state>
           </provider>
@@ -113,11 +105,11 @@
       <list>
         <option value="$PROJECT_DIR$/CNAME" />
         <option value="$PROJECT_DIR$/team copy.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/team.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/portfolio.html" />
+        <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -461,13 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="249" selection-start="2649" selection-end="2649" vertical-scroll-proportion="-16.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="1186" selection-end="1579" vertical-scroll-proportion="-20.0">
@@ -495,17 +480,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="559" column="14" selection-start="8809" selection-end="8809" vertical-scroll-proportion="-13.730769">
+        <state line="55" column="13" selection-start="836" selection-end="836" vertical-scroll-proportion="-11.115385">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="760" column="14" selection-start="43286" selection-end="43286" vertical-scroll-proportion="0.7955707">
+        <state line="32" column="0" selection-start="2329" selection-end="2900" vertical-scroll-proportion="-1.9852941">
           <folding>
             <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="31" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.5467512">
+          <folding />
         </state>
       </provider>
     </entry>

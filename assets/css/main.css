@@ -42,6 +42,26 @@ h1 {
 	margin:0 auto;
 }
 
+.portfolio .anythingSlider-default .anythingControls ul {
+    float: none;
+    margin: auto;
+    width: 650px;
+}
+
+#header .span2
+{
+    padding: 5px;
+    color: #000000;
+    background: #ffffff;
+    width: 160px;
+}
+
+#header .span2.active
+{
+    color: #ffffff;
+    background: #000000;
+}
+
 /* Main Container Styles  */
 
 .main-container {
@@ -223,9 +243,9 @@ h1 {
 
 .container .anythingControls
 {
-    position: absolute;
+    /*position: absolute;*/
+    position: relative;
     margin-top: -695px;
-    margin-left: 00px;
 }
 
 .container .equala
@@ -522,27 +542,27 @@ h1 {
     font-style: italic;
 }
 
-.equala_logo
+.equala.logo
 {
     margin-top: 70px;
-    margin-left: -5px;
+    margin-left: 110px;
     display: block;
     width: 180px;
     height: 50px;
     background: url('../img/equala.png');
 }
 
-.bizzabo_logo
+.bizzabo.logo
 {
     margin-top: 70px;
-    margin-left: 50px;
+    margin-left: 110px;
     display: block;
-    width: 152px;
+    width: 160px;
     height: 50px;
     background: url('../img/bizzabo.png');
 }
 
-.appmyday_logo
+.appmyday.logo
 {
     margin-top: 75px;
     margin-left: 40px;
@@ -552,7 +572,7 @@ h1 {
     background: url('../img/appmyday.png');
 }
 
-.wisepricer_logo
+.wisepricer.logo
 {
     margin-top: 70px;
     margin-left: 135px;
@@ -562,7 +582,7 @@ h1 {
     background: url('../img/wisepricer.png');
 }
 
-.roomixer_logo
+.roomixer.logo
 {
     margin-top: 70px;
     margin-left: 175px;
@@ -572,17 +592,17 @@ h1 {
     background: url('../img/roomixer.png');
 }
 
-.swayy_logo
+.swayy.logo
 {
     margin-top: 80px;
     margin-left: 230px;
     display: block;
-    width: 163px;
+    width: 190px;
     height: 38px;
     background: url('../img/swayy.png');
 }
 
-.morpheus_logo
+.morpheus.logo
 {
     margin-top: 70px;
     margin-left: 260px;
@@ -592,7 +612,7 @@ h1 {
     background: url('../img/morpheus.png');
 }
 
-.playgem_logo
+.playgem.logo
 {
     margin-top: 75px;
     margin-left: 320px;
@@ -602,7 +622,7 @@ h1 {
     background: url('../img/playgem.png');
 }
 
-.doalbums_logo
+.doalbums.logo
 {
     margin-top: 70px;
     margin-left: 355px;
@@ -612,7 +632,7 @@ h1 {
     background: url('../img/doalbums.png');
 }
 
-.justad_logo
+.justad.logo
 {
     margin-top: 75px;
     margin-left: 405px;
@@ -622,7 +642,7 @@ h1 {
     background: url('../img/justad.png');
 }
 
-.licensario_logo
+.licensario.logo
 {
     margin-top: 70px;
     margin-left: 450px;
@@ -632,7 +652,7 @@ h1 {
     background: url('../img/licensario.png');
 }
 
-.askem_logo
+.askem.logo
 {
     margin-top: 75px;
     margin-left: 495px;
@@ -642,7 +662,7 @@ h1 {
     background: url('../img/askem.png');
 }
 
-.ringya_logo
+.ringya.logo
 {
     margin-top: 75px;
     margin-left: 510px;
@@ -652,13 +672,13 @@ h1 {
     background: url('../img/ringya.png');
 }
 
-.seven_elements_logo
+.seven_elements.logo
 {
     margin-top: 70px;
     margin-left: 575px;
     display: block;
-    width: 205px;
-    height: 65px;
+    width: 170px;
+    height: 55px;
     background: url('../img/7elements.png');
 }
 

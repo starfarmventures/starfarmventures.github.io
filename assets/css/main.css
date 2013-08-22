@@ -56,6 +56,11 @@ h1 {
     background: #ffffff;
 }
 
+#header a.span2 div
+{
+    margin-left: 4px;
+}
+
 #header .span2.active
 {
     color: #ffffff;

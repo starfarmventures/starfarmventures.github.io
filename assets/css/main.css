@@ -58,6 +58,7 @@ h1 {
 
 #header a.span2 div
 {
+    margin-right: 4px;
     margin-left: 4px;
 }
 
@@ -717,4 +718,45 @@ h1 {
 {
     font-size: 20px;
     font-weight: 100;
+}
+
+.about_title
+{
+    font-family: 'Pathway Gothic One';
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about_content
+{
+    font-family: 'Pathway Gothic One';
+    font-size: 18px;
+}
+
+.aboutus .span4 > div > img
+{
+    margin-left: 80px;
+}
+
+.aboutus .span4
+{
+    width: 360px;
+}
+
+a.amazon_img
+{
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 238px;
+    height: 66px;
+    display: block;
+    background: url('../img/amazon.png');
+}
+
+.text_center
+{
+    text-align: center;
 }

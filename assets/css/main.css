@@ -738,7 +738,8 @@ h1 {
 
 .aboutus .span4 > div > img
 {
-    margin-left: 80px;
+    width: 70%;
+    margin-left: 15%;
 }
 
 .aboutus .span4

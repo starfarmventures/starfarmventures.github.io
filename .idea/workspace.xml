@@ -84,7 +84,7 @@
       <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="37" selection-start="6220" selection-end="6220" vertical-scroll-proportion="-8.22">
+            <state line="126" column="45" selection-start="7516" selection-end="7516" vertical-scroll-proportion="-8.22">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -114,7 +114,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="699" column="13" selection-start="11056" selection-end="11056" vertical-scroll-proportion="0.6660305">
+            <state line="699" column="14" selection-start="11069" selection-end="11069" vertical-scroll-proportion="0.60877866">
               <folding />
             </state>
           </provider>
@@ -546,7 +546,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="37" selection-start="6220" selection-end="6220" vertical-scroll-proportion="-8.22">
+        <state line="126" column="45" selection-start="7516" selection-end="7516" vertical-scroll-proportion="-8.22">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -574,7 +574,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="699" column="13" selection-start="11056" selection-end="11056" vertical-scroll-proportion="0.6660305">
+        <state line="699" column="14" selection-start="11069" selection-end="11069" vertical-scroll-proportion="0.60877866">
           <folding />
         </state>
       </provider>

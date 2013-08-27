@@ -695,6 +695,13 @@ h1 {
     font-weight: bold;
 }
 
+.row .span6 .span1
+{
+    width: 145px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .span2
 {
     width: 140px;

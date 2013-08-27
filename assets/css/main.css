@@ -745,6 +745,13 @@ h1 {
 .aboutus .span4
 {
     width: 29%;
+    height: 520px;
+}
+
+.span6
+{
+    width: 530px;
+    padding-left: 40px;
 }
 
 a.amazon_img

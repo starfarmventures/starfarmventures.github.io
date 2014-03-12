@@ -456,7 +456,7 @@ Works
 
 .og-fullimg,
 .og-details {
-	width: 50%;
+	width: 100%;
 	float: left;
 	height: 100%;
 	overflow: hidden;
@@ -464,11 +464,12 @@ Works
 }
 
 .og-details {
-	padding: 0 40px 0 0;
+	padding: 40px;
 }
 
 .og-fullimg {
 	text-align: center;
+	display: none;;
 }
 
 .og-fullimg img {

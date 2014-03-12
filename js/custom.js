@@ -15,7 +15,7 @@
 
             $.mbBgndGallery.buildGallery({
                 containment:"#intro",
-                timer:400000,
+                timer:40000000,
                 effTimer:1000,
                 grayScale:false,
                 shuffle:false,

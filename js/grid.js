@@ -191,7 +191,7 @@ var Grid = (function() {
 		support = Modernizr.csstransitions,
 		// default settings
 		settings = {
-			minHeight : 400,
+			minHeight : 330,
 			speed : 350,
 			easing : 'ease'
 		};
@@ -431,8 +431,8 @@ var Grid = (function() {
 		},
 		calcHeight : function() {
 
-			var heightPreview = winsize.height - this.$item.data( 'height' ) - marginExpanded,
-				itemHeight = winsize.height;
+			var heightPreview = 420,
+				itemHeight = 600;
 
 			if( heightPreview < settings.minHeight ) {
 				heightPreview = settings.minHeight;

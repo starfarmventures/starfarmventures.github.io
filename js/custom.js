@@ -82,7 +82,7 @@ var scrollTop = $(window).scrollTop();
 
 
             $(window).stellar({
-                responsive:true,
+                responsive:false,
                 scrollProperty: 'scroll',
                 parallaxElements: false,
                 horizontalScrolling: false,

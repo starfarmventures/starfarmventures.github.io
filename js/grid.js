@@ -319,10 +319,23 @@ var Grid = (function() {
 	Preview.prototype = {
 		create : function() {
 			// create Preview structure:
+			var $itemEl = this.$item.children( 'a' ),
+				eldata = {
+					href : $itemEl.attr( 'href' ),
+					largesrc : $itemEl.data( 'largesrc' ),
+					title : $itemEl.data( 'title' ),
+					description : $itemEl.data( 'description' )
+				};
+
 			this.$title = $( '<h4></h4>' );
 			this.$description = $( '<p></p>' );
+
 			this.$href = $( '<a target="_blank" href="#" class="btn btn-theme">Company Website</a>' );
-			this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
+			if (eldata.href.length > 0) {
+				this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
+			} else {
+				this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description);
+			}
 			this.$loading = $( '<div class="og-loading"></div>' );
 			this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading );
 			this.$closePreview = $( '<span class="og-close"></span>' );
